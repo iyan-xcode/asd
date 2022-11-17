@@ -10,8 +10,8 @@ export default function Adsense() {
       if (typeof window !== "undefined") {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       }
-    } catch (error) {
-      //
+    } catch (err) {
+      console.log(err.message);
     }
   };
 

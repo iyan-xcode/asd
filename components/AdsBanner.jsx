@@ -21,6 +21,7 @@ const AdsBanner = () => {
       data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
       data-ad-slot={process.env.NEXT_PUBLIC_SLOT_ID}
       data-ad-format="auto"
+      data-adtest="on"
     />
   );
 };

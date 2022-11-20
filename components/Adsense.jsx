@@ -23,6 +23,7 @@ export default function Adsense() {
       data-ad-slot={process.env.NEXT_PUBLIC_SLOT_ID}
       data-ad-format="auto"
       data-full-width-responsive="true"
+      data-adtest="on"
     ></ins>
   );
 }

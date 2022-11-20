@@ -1,7 +1,7 @@
 import Script from "next/script";
 import React from "react";
 
-export default function CAdsense() {
+const CAdsense = () => {
   return (
     <Script
       async
@@ -9,4 +9,5 @@ export default function CAdsense() {
       crossorigin="anonymous"
     ></Script>
   );
-}
+};
+export default CAdsense;

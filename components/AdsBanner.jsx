@@ -15,14 +15,22 @@ const AdsBanner = () => {
     }
   };
   return (
+    // <ins
+    //   className="adsbygoogle"
+    //   style={{ display: "block" }}
+    //   data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
+    //   data-ad-slot={process.env.NEXT_PUBLIC_SLOT_ID}
+    //   data-ad-format="auto"
+    //   data-adtest="on"
+    // />
     <ins
       className="adsbygoogle"
       style={{ display: "block" }}
-      data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
-      data-ad-slot={process.env.NEXT_PUBLIC_SLOT_ID}
+      data-ad-client="ca-pub-1150979373977622"
+      data-ad-slot="7144485162"
       data-ad-format="auto"
-      data-adtest="on"
-    />
+      data-full-width-responsive="true"
+    ></ins>
   );
 };
 

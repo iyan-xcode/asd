@@ -5,6 +5,7 @@ export default function CAdsense() {
   return (
     <Script
       id="Adsense-id"
+      data-checked-head="true"
       data-ad-client="ca-pub-1150979373977622"
       async
       strategy="afterInteractive"

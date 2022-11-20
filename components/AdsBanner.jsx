@@ -6,6 +6,7 @@ const AdsBanner = () => {
   }, []);
   const loadAds = () => {
     let ads = document.getElementsByClassName("adsbygoogle").length;
+    console.log("ads => ", ads);
     var adsbygoogle;
     for (let i = 0; i < ads; i++) {
       try {
@@ -19,11 +20,11 @@ const AdsBanner = () => {
     <ins
       className="adsbygoogle"
       style={{ display: "block" }}
-      data-ad-client="ca-pub-1150979373977622"
-      data-ad-slot="7144485162"
+      data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
+      data-ad-slot={process.env.NEXT_PUBLIC_SLOT_ID}
       data-ad-format="auto"
       data-full-width-responsive="true"
-    ></ins>
+    />
   );
 };
 

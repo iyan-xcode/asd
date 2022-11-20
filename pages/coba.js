@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import AdsBanner from "../components/AdsBanner";
-import CAdsense from "../components/CAdsense";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
       <button onClick={() => router.push("/")}>Home</button>
       <br />
       <button onClick={() => router.push("/test")}>Test</button>
-      <CAdsense />
+      <AdsBanner />
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
